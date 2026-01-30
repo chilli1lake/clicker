@@ -1,0 +1,15 @@
+.App {
+  min-height: 100vh;
+  background: hsl(240 10% 4%);
+}
+
+/* Remove default centering */
+.App-header {
+  display: none;
+}
+
+/* Selection color */
+::selection {
+  background: hsl(43 74% 49% / 0.3);
+  color: hsl(45 100% 95%);
+}
